@@ -61,7 +61,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="21dp" />
+                android:layout_marginBottom="21dp"
+                android:max="5" />
 
 
         </RelativeLayout>
@@ -116,7 +117,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="21dp" />
+                android:layout_marginBottom="21dp"
+                android:max="200" />
 
 
         </RelativeLayout>
@@ -146,7 +148,9 @@
                 android:textColor="@color/colorPrimaryText"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                app:fontFamily="@font/roboto" />
+                app:fontFamily="@font/roboto"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="61dp" />
 
             <TextView
                 android:id="@+id/bmiTextView"
@@ -157,8 +161,10 @@
                 android:text="@string/onePointThreeMeters"
                 android:textColor="@color/colorPrimaryText"
                 android:textSize="24sp"
+                android:maxLength="8"
                 android:textStyle="bold"
-                app:fontFamily="@font/roboto" />
+                app:fontFamily="@font/roboto"
+                android:layout_toRightOf="@+id/bmiText" />
 
         </RelativeLayout>
 
