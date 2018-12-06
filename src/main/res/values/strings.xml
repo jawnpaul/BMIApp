@@ -3,4 +3,6 @@
     <string name="height">HEIGHT:</string>
     <string name="next">Next</string>
     <string name="onePointThreeMeters">1.3m</string>
+    <string name="weight">WEIGHT:</string>
+    <string name="bmi">BMI:</string>
 </resources>
