@@ -5,4 +5,10 @@
     <string name="onePointThreeMeters">1.3m</string>
     <string name="weight">WEIGHT:</string>
     <string name="bmi">BMI:</string>
+    <string name="normalWeightDetails">Hello there, the user of our amazing BMI calculator based on the information you have
+    provided us we are pleased to inform you that you have a NORMAL body mass Index. We encourage you to continue with this trend and exercise well. \n Cheers!!</string>
+    <string name="underWeightDetails">Hello there, the user of our amazing BMI calculator based on the information you have
+    provided us we are pleased to inform you that you have an UNDERWEIGHT body mass Index. We encourage you to eat more and add some more weight. \n Cheers!!</string>
+    <string name="overWeightDetails">Hello there, the user of our amazing BMI calculator based on the information you have
+    provided us we are pleased to inform you that you have a OVERWEIGHT body mass Index. We encourage you to workout well to be able to balance things up. \n Cheers!!</string>
 </resources>
